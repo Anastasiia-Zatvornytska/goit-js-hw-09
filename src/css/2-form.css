@@ -1,0 +1,24 @@
+.feedback-form {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    width: 400px;
+    margin: 0 auto;
+}
+
+.feedback-form label {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.feedback-form input,
+.feedback-form textarea {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.feedback-form button {
+    width: fit-content;
+    align-self: center;
+}
